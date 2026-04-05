@@ -6,9 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preinstall": "node -e \"console.error('\\n❌ ERROR: npm install is BLOCKED in this project!\\n\\nThis is a web-based application that uses CDN imports.\\nDo NOT run npm install or yarn install.\\n\\nSee README.md for instructions.\\n'); process.exit(1);\"",
-    "install": "node -e \"console.error('\\n❌ BLOCKED\\n'); process.exit(1);\"",
-    "postinstall": "node -e \"console.error('\\n❌ BLOCKED\\n'); process.exit(1);\""
+    "install": "echo 'Skipping npm install - using Vercel build'",
+    "postinstall": "echo 'Install skipped'"
   },
   "dependencies": {
     "react": "^18.2.0",
