@@ -2,5 +2,6 @@
   "buildCommand": "npm run build:fast",
   "installCommand": "npm install",
   "outputDirectory": "dist",
-  "framework": "vite"
+  "framework": "vite",
+  "name": "3d-shaper"
 }
