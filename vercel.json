@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build:fast",
   "installCommand": "npm install",
   "outputDirectory": "dist",
   "framework": "vite"
