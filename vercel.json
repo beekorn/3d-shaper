@@ -1,7 +1,15 @@
 {
+  "name": "3d-shaper",
   "buildCommand": "echo 'Static deploy'",
   "installCommand": "echo 'Skipping install - CDN imports'",
   "outputDirectory": ".",
   "framework": null,
-  "name": "3d-shaper"
+  "headers": [
+    {
+      "source": "/src/(.*).tsx",
+      "headers": [
+        { "key": "Content-Type", "value": "application/javascript" }
+      ]
+    }
+  ]
 }
