@@ -2,5 +2,6 @@
   "buildCommand": "echo 'Static deploy'",
   "installCommand": "echo 'Skipping install - CDN imports'",
   "outputDirectory": ".",
-  "framework": null
+  "framework": null,
+  "name": "3d-shaper"
 }
